@@ -1,5 +1,8 @@
 body {
    margin: 0;
+   overflow: hidden;
+   height: 100vh;
+   font-family: system-ui, -apple-system;;
 }
 * {
    background-color: rgb(15, 15, 15);
@@ -11,6 +14,8 @@ body {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
+   position: sticky;
+   top: 0;
 }
 
 .page-content {
@@ -19,14 +24,16 @@ body {
 
 .sidebar {
    flex: 1;
-   height: 1000px;
-   background-color: blueviolet;
+   display: flex;
+   flex-direction: column;
+   height: 100%;
 }
 
 .content {
    flex: 6;
    height: 1000px;
    background-color: chartreuse;
+   overflow-y: auto;
 }
 
 .nav-left {
@@ -78,7 +85,7 @@ body {
    border: 1px solid #ffffff21;
    margin: 10px;
    border-radius: 25px;
-   width: 80%;
+   width: 65%;
    justify-content:center ;
 }
 
@@ -144,4 +151,77 @@ body {
 
 .nav-right {
    flex: 1;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   margin-right: 10px;
+}
+
+.r-menu-item {
+   border-style: none;
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+   margin: 0px 10px;
+   display: flex;
+   justify-content: center;
+
+}
+
+.r-menu-item:hover {
+   background-color: rgb(40,40,40); ;
+   border-style: none;
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+
+}
+
+.r-menu-item:hover img{
+   background-color: rgb(40,40,40); 
+   width: 30px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+
+
+.r-menu-img {
+   width: 30px;
+   border-radius: 50%;
+}
+
+.left-menu-contant {
+   display: flex;
+   align-items: center;
+   height: 40px;
+   justify-content: flex-start;
+   margin-top: 10px;
+   text-decoration: none;
+   color: white;
+   border-radius: 15px;
+   margin-left: 5px;
+}
+
+.left-menu-contant:hover {
+   display: flex;
+   background-color: rgb(40,40,40); ;
+   align-items: center;
+   height: 40px;
+   justify-content: flex-start;
+   margin-top: 10px;
+   margin-left: 5px;
+   text-decoration: none;
+   color: white;
+   border-radius: 15px;
+}
+
+.left-menu-contant:hover *{
+   background-color: rgb(40,40,40); ;
+}
+
+.left-menu-image {
+   width: 30px;
+   margin: 0px 10px;
 }
