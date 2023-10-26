@@ -1,5 +1,147 @@
-.navbar {
-   height: 50px;
-   background-color: aqua;
+body {
+   margin: 0;
+}
+* {
+   background-color: rgb(15, 15, 15);
 }
 
+.navbar {
+   height: 60px;
+/* background-color: aqua; */
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.page-content {
+   display: flex;
+}
+
+.sidebar {
+   flex: 1;
+   height: 1000px;
+   background-color: blueviolet;
+}
+
+.content {
+   flex: 6;
+   height: 1000px;
+   background-color: chartreuse;
+}
+
+.nav-left {
+   display: flex;
+   flex: 1;
+}
+
+.img-menu {
+   padding: 10px;
+   height: 26px;
+   width:26px;
+   border-radius: 50%;
+   margin: 6px 10px 0px;
+}
+
+.img-menu:hover {
+   padding: 10px;
+   height: 26px;
+   width: 26px;
+   border-radius: 50%;
+   margin: 5px 10px 0px;
+   background-color: rgb(39, 39, 39);
+}
+
+.youtube-logo {
+   display: flex;
+
+   text-decoration: none;
+   align-items: center;
+}
+
+.youtube-img {
+   height: 75px;
+   /* margin-right: 10px; */
+}
+
+.nav-med {
+   flex: 3;
+   display: flex;
+   width: 60%;
+   align-items: center;
+   justify-content: center;
+}
+
+.search {
+   display: flex;
+   align-items: center;
+   background-color: rgb(20,20,20);
+   border: 1px solid #ffffff21;
+   margin: 10px;
+   border-radius: 25px;
+   width: 80%;
+   justify-content:center ;
+}
+
+.search-input {
+   background-color: rgb(20,20,20);
+   border-style:none;
+   height: 31px;
+   margin-left: 15px;;
+   width: 100%;
+   font-size: 17px;
+}
+
+.search-btn {
+   width: 7%;
+   background-color:  rgb(40,40,40);
+   height: -webkit-fill-available;
+   border-radius: 25px;
+}
+
+.search-btn:hover  {
+   width: 7%;
+   background-color:  rgb(50,50,50);
+   height: -webkit-fill-available;
+   border-radius: 25px;
+   cursor: pointer;
+}
+
+.search-img {
+   margin: 9px 10px 9px 15px;
+   height: 20px;
+   width: 20px;
+   background-color:  rgb(40,40,40);
+}
+
+.search-btn:hover .search-img {
+   margin: 9px 10px 9px 15px;
+   height: 20px;
+   width: 20px;
+   background-color:  rgb(50,50,50);
+}
+
+.voice {
+   background-color:  rgb(40,40,40);
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+}
+
+.voice-img {
+   background-color:  rgb(40,40,40);
+   width: 42px;
+   height: 42px;
+   border-radius: 50%;
+}
+
+.voice-img:hover {
+   background-color:  rgb(50,50,50);
+   width: 42px;
+   height: 42px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+
+.nav-right {
+   flex: 1;
+}
