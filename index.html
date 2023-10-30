@@ -19,15 +19,15 @@
       <div class="nav-med">
          <div class="search">
             <input type="search" class="search-input" placeholder="Search">
-            <div class="search-btn">
+            <div class="search-btn hidden-mod">
                <img src="asset/imgs/search.png" alt=""class = "search-img">
             </div>
-         </div>
-            <img src="asset/imgs/voice.png" alt="" class="voice-img">
+         </div >
+            <img src="asset/imgs/voice.png" alt="" class="voice-img hidden-mod">
       </div>
       <div class="nav-right">
-         <button class="r-menu-item"><img src="asset/imgs/create-video.png" alt="" class="r-menu-img"></button>
-         <button class="r-menu-item"><img src="asset/imgs/bell.png" alt="" class="r-menu-img"></button>
+         <button class="r-menu-item hidden-mod"><img src="asset/imgs/create-video.png" alt="" class="r-menu-img"></button>
+         <button class="r-menu-item hidden-mod"><img src="asset/imgs/bell.png" alt="" class="r-menu-img"></button>
          <button class="r-menu-item"><img src="asset/imgs/c2.png" alt="" class="r-menu-img"></button>
       </div>
    </div>
@@ -35,47 +35,316 @@
       <div class="sidebar">
             <a href="" class="left-menu-contant">
                <img src="asset/imgs/home.png" alt="" class="left-menu-image">
-                  <span>Home</span>
+                  <span class="l-m-text">Home</span>
             </a>
             <a href="" class="left-menu-contant">
                <img src="asset/imgs/shorts.png" alt="" class="left-menu-image">
-                  <span>Shorts</span>
+                  <span class="l-m-text">Shorts</span>
             </a>
             <a href="" class="left-menu-contant">
                <img src="asset/imgs/subscribe.png" alt="" class="left-menu-image">
-                  <span>Subscription</span>
+                  <span class="l-m-text">Subscription</span>
             </a>
-            <a href="" class="left-menu-contant">
+            <span class="left-menu-head">
                   <span>You</span>
-            </a>
+            </span>
             <a href="" class="left-menu-contant">
                <img src="asset/imgs/user.png" alt="" class="left-menu-image">
-                  <span>Your Chennal</span>
+                  <span class="l-m-text">Your Chennal</span>
             </a>
             <a href="" class="left-menu-contant">
                <img src="asset/imgs/history.png" alt="" class="left-menu-image">
-                  <span>History</span>
+                  <span class="l-m-text">History</span>
             </a>
             <a href="" class="left-menu-contant">
                <img src="asset/imgs/your-vid.png" alt="" class="left-menu-image">
-                  <span>Your Videos</span>
+                  <span class="l-m-text">Your Videos</span>
             </a>
             <a href="" class="left-menu-contant">
                <img src="asset/imgs/watch-later.png" alt="" class="left-menu-image">
-                  <span>Watch Later</span>
+                  <span class="l-m-text">Watch Later</span>
             </a>
             <a href="" class="left-menu-contant">
                <img src="asset/imgs/down-arrow.png" alt="" class="left-menu-image">
-                  <span>See More</span>
+                  <span class="l-m-text">See More</span>
             </a>
-      </div>
-      <div class="content">
-         <div class="suggestions">
-
+            <span class="left-menu-head">
+               <span>Subs</span>
+            </span>
+            <a href="" class="left-menu-contant">
+               <img src="asset/imgs/group-prime.jpg" alt="" class="left-menu-image">
+               <span class="l-m-text">ThePrimeTime</span>
+            </a>
+            <a href="" class="left-menu-contant">
+               <img src="asset/imgs/c3.png" alt="" class="left-menu-image">
+               <span class="l-m-text">Channel</span>
+            </a>
+            <a href="" class="left-menu-contant">
+               <img src="asset/imgs/oddatchi.jpg" alt="" class="left-menu-image">
+               <span class="l-m-text">Odacchi</span>
+            </a>
+            <a href="" class="left-menu-contant">
+               <img src="asset/imgs/oddatchi.jpg" alt="" class="left-menu-image">
+               <span class="l-m-text">Odacchi</span>
+            </a>
+            <a href="" class="left-menu-contant">
+               <img src="asset/imgs/oddatchi.jpg" alt="" class="left-menu-image">
+               <span class="l-m-text">Odacchi</span>
+            </a>
+            <a href="" class="left-menu-contant">
+               <img src="asset/imgs/down-arrow.png" alt="" class="left-menu-image">
+                  <span class="l-m-text">See More</span>
+            </a>
+            <a href="" class="left-menu-contant">
+               <img src="asset/imgs/down-arrow.png" alt="" class="left-menu-image">
+                  <span class="l-m-text">See More</span>
+            </a>
          </div>
-         <div class="videos">
+         <div class="content">
+            <div class="suggestions">
+               <button class="sugg-content active">All</button>
+               <button class="sugg-content">Games</button>
+               <button class="sugg-content">Programming</button>
+               <button class="sugg-content">one piece</button>
+               <button class="sugg-content">Computer Scince</button>
+               <button class="sugg-content">The Office</button>
+               <button class="sugg-content">Coding</button>
+               <button class="sugg-content">History</button>
+               <button class="sugg-content">Music</button>
+               <button class="sugg-content">Live</button>
+               <button class="sugg-content">Comdy</button>
+               <button class="sugg-content">Computer Programming</button>
+            </div>
+            <div class="videos">
+               <div class="video">
+                  <img src="asset/vid-img/hq720.webp" alt="" class="vid-img">
+                  <div class="vid-info">
+                     <img src="asset/imgs/c2.png" alt="" class="usr-img">
+                     <div class="vid-details">
+                        <span class="vid-title">This is the video title, keep it up</span>
+                        <a href="" class="usr-name text-color">ODDATCHI</a>
+                        <div class="info-time">
+                           <span class="info-views text-color">12K</span>
+                           <span class="time-ago text-color"> * 5 day ago</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="video">
+                  <img src="asset/vid-img/1.webp" alt="" class="vid-img">
+                  <div class="vid-info">
+                     <img src="asset/imgs/c2.png" alt="" class="usr-img">
+                     <div class="vid-details">
+                        <span class="vid-title">Let's play K&R | Chapter 1 Ep. 1
+                        </span>
+                        <a href="" class="usr-name text-color">peiter-jan</a>
+                        <div class="info-time">
+                           <span class="info-views text-color">12K</span>
+                           <span class="time-ago text-color"> * 5 day ago</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="video">
+                  <img src="asset/vid-img/2.webp" alt="" class="vid-img">
+                  <div class="vid-info">
+                     <img src="asset/vid-img/channels4_profile.jpg" alt="" class="usr-img">
+                     <div class="vid-details">
+                        <span class="vid-title">Rest API - Best Practices - Design
+                        </span>
+                        <a href="" class="usr-name text-color">High-Performance Programming</a>
+                        <div class="info-time">
+                           <span class="info-views text-color">12K</span>
+                           <span class="time-ago text-color"> * 5 day ago</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="video">
+                  <img src="asset/vid-img/3.webp" alt="" class="vid-img">
+                  <div class="vid-info">
+                     <img src="asset/vid-img/channels4_profile (1).jpg" alt="" class="usr-img">
+                     <div class="vid-details">
+                        <span class="vid-title">Grind Leetcode or Build Projects?</span>
+                        <a href="" class="usr-name text-color">bigBoxSE</a>
+                        <div class="info-time">
+                           <span class="info-views text-color">12K</span>
+                           <span class="time-ago text-color"> * 5 day ago</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="video">
+                  <img src="asset/vid-img/5.webp" alt="" class="vid-img">
+                  <div class="vid-info">
+                     <img src="asset/vid-img/channels4_profile (2).jpg" alt="" class="usr-img">
+                     <div class="vid-details">
+                        <span class="vid-title">The Redstone Block I've Always Wanted
+                        </span>
+                        <a href="" class="usr-name text-color">Purplers</a>
+                        <div class="info-time">
+                           <span class="info-views text-color">12K</span>
+                           <span class="time-ago text-color"> * 5 day ago</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="video">
+                  <img src="asset/vid-img/6.webp" alt="" class="vid-img">
+                  <div class="vid-info">
+                     <img src="asset/vid-img/unnamed.jpg" alt="" class="usr-img">
+                     <div class="vid-details">
+                        <span class="vid-title">How to wash a Kitten without making it to scared</span>
+                        <a href="" class="usr-name text-color">Platinum Drone Productions</a>
+                        <div class="info-time">
+                           <span class="info-views text-color">12K</span>
+                           <span class="time-ago text-color"> * 5 day ago</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="video">
+                  <img src="asset/vid-img/7.webp" alt="" class="vid-img">
+                  <div class="vid-info">
+                     <img src="asset/vid-img/unnamed (1).jpg" alt="" class="usr-img">
+                     <div class="vid-details">
+                        <span class="vid-title">المغالطات المنطقية و الانحيازات المعرفية - مع محمد الجيش</span>
+                        <a href="" class="usr-name text-color">Mohamed Elsherif</a>
+                        <div class="info-time">
+                           <span class="info-views text-color">12K</span>
+                           <span class="time-ago text-color"> * 5 day ago</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="video">
+                  <img src="asset/vid-img/9.webp" alt="" class="vid-img">
+                  <div class="vid-info">
+                     <img src="asset/vid-img/channels4_profile (3).jpg" alt="" class="usr-img">
+                     <div class="vid-details">
+                        <span class="vid-title">الهاكر - الدحيح</span>
+                        <a href="" class="usr-name text-color">New Media Academy Life</a>
+                        <div class="info-time">
+                           <span class="info-views text-color">12K</span>
+                           <span class="time-ago text-color"> * 5 day ago</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="video">
+                  <img src="asset/vid-img/hq720.webp" alt="" class="vid-img">
+                  <div class="vid-info">
+                     <img src="asset/imgs/c2.png" alt="" class="usr-img">
+                     <div class="vid-details">
+                        <span class="vid-title">This is the video title, keep it up</span>
+                        <a href="" class="usr-name text-color">ODDATCHI</a>
+                        <div class="info-time">
+                           <span class="info-views text-color">12K</span>
+                           <span class="time-ago text-color"> * 5 day ago</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="video">
+                  <img src="asset/vid-img/hq720.webp" alt="" class="vid-img">
+                  <div class="vid-info">
+                     <img src="asset/imgs/c2.png" alt="" class="usr-img">
+                     <div class="vid-details">
+                        <span class="vid-title">This is the video title, keep it up</span>
+                        <a href="" class="usr-name text-color">ODDATCHI</a>
+                        <div class="info-time">
+                           <span class="info-views text-color">12K</span>
+                           <span class="time-ago text-color"> * 5 day ago</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="video">
+                  <img src="asset/vid-img/hq720.webp" alt="" class="vid-img">
+                  <div class="vid-info">
+                     <img src="asset/imgs/c2.png" alt="" class="usr-img">
+                     <div class="vid-details">
+                        <span class="vid-title">This is the video title, keep it up</span>
+                        <a href="" class="usr-name text-color">ODDATCHI</a>
+                        <div class="info-time">
+                           <span class="info-views text-color">12K</span>
+                           <span class="time-ago text-color"> * 5 day ago</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="video">
+                  <img src="asset/vid-img/hq720.webp" alt="" class="vid-img">
+                  <div class="vid-info">
+                     <img src="asset/imgs/c2.png" alt="" class="usr-img">
+                     <div class="vid-details">
+                        <span class="vid-title">This is the video title, keep it up</span>
+                        <a href="" class="usr-name text-color">ODDATCHI</a>
+                        <div class="info-time">
+                           <span class="info-views text-color">12K</span>
+                           <span class="time-ago text-color"> * 5 day ago</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="video">
+                  <img src="asset/vid-img/hq720.webp" alt="" class="vid-img">
+                  <div class="vid-info">
+                     <img src="asset/imgs/c2.png" alt="" class="usr-img">
+                     <div class="vid-details">
+                        <span class="vid-title">This is the video title, keep it up</span>
+                        <a href="" class="usr-name text-color">ODDATCHI</a>
+                        <div class="info-time">
+                           <span class="info-views text-color">12K</span>
+                           <span class="time-ago text-color"> * 5 day ago</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="video">
+                  <img src="asset/vid-img/hq720.webp" alt="" class="vid-img">
+                  <div class="vid-info">
+                     <img src="asset/imgs/c2.png" alt="" class="usr-img">
+                     <div class="vid-details">
+                        <span class="vid-title">This is the video title, keep it up</span>
+                        <a href="" class="usr-name text-color">ODDATCHI</a>
+                        <div class="info-time">
+                           <span class="info-views text-color">12K</span>
+                           <span class="time-ago text-color"> * 5 day ago</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="video">
+                  <img src="asset/vid-img/hq720.webp" alt="" class="vid-img">
+                  <div class="vid-info">
+                     <img src="asset/imgs/c2.png" alt="" class="usr-img">
+                     <div class="vid-details">
+                        <span class="vid-title">This is the video title, keep it up</span>
+                        <a href="" class="usr-name text-color">ODDATCHI</a>
+                        <div class="info-time">
+                           <span class="info-views text-color">12K</span>
+                           <span class="time-ago text-color"> * 5 day ago</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="video">
+                  <img src="asset/vid-img/hq720.webp" alt="" class="vid-img">
+                  <div class="vid-info">
+                     <img src="asset/imgs/c2.png" alt="" class="usr-img">
+                     <div class="vid-details">
+                        <span class="vid-title">This is the video title, keep it up</span>
+                        <a href="" class="usr-name text-color">ODDATCHI</a>
+                        <div class="info-time">
+                           <span class="info-views text-color">12K</span>
+                           <span class="time-ago text-color"> * 5 day ago</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
          </div>
       </div>
-   </div>
-</body>
-</html>
+   </body>
+   </html>
