@@ -346,6 +346,13 @@ body {
       margin: auto;
       padding-bottom: 10px;
    }
+
+   .video:hover {
+      width: 30%;
+      margin: auto;
+      padding-bottom: 10px;
+      cursor: pointer;
+   }
 }
 
 @media only screen and (max-width: 1000px) {
